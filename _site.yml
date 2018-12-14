@@ -1,0 +1,35 @@
+name: Hajji Hassan
+output_dir: '.'
+navbar:
+  title: Hajji Hassan
+  type: inverse
+  left:
+  - text: Home
+    icon: fa-home
+    href: index.html
+  - text: Internships
+    href: poster-khadija.pdf
+      
+    
+#      - text: End of year project
+#        href: https://github.com/hassanhajji/Projet-recherche-operationelle/blob/master/Rapport%20PFA.pdf
+        
+  - text: My CV
+    href: cvR.html
+  - text: Data
+  
+  right:
+  - icon: fa-envelope fa-lg
+    href: contact.html
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/khadija-mhiri-59b179134/
+  - icon: fa-facebook fa-lg
+    href: https://www.facebook.com/khadija.mhiri2
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+
